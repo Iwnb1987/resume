@@ -1,0 +1,11 @@
+h1 {
+text-indent: 10%;
+font-size: 30px;
+font-family: arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #0499ff;
+ padding: 1%;
+}

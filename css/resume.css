@@ -1,0 +1,37 @@
+h1 {
+    background-color: #e2e2e2;
+    padding: 5px;
+}
+body {
+    font-family:sans-serif;
+}
+.main-image {
+   border: solid 4px blue;
+    border-radius:50%;
+}
+.section {
+    text-transform:uppercase;
+}
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: top;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.button {
+  color: blue;
+    text-align:center;
+}
+
+
+
