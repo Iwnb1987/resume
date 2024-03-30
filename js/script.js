@@ -47,3 +47,26 @@ for(let i = 0; i < toons.length; i++) {
                   };
 }
 });
+
+if(document.getElementById('chaos')) {
+   (document.getElementById('chaos')).addEventListener('click', () => {
+      const name = prompt("what\'s you name?");
+      alert(`Hi, ${name}. Want to see something cool?`);
+      document.querySelector('html').innerHTML = `
+       <h1>Welcome to ${name}'s site!</h1>
+       <img src="https://retrocdn.net/images/f/f6/Chaotix_title.png">
+     `;
+  });
+  };
+
+  const colors = ['cerulean', 'blue', 'fuchsia', 'vermillion', 'red', 'cyan', 'crimson', 'saffron', 'pink',
+          'violet', 'lavendar', 'pewter', 'deepskyblue', 'indigo', 'turquoise', 'celadon', 'viridian', 'cinnabar'];
+          const index = 0;
+          function changeColor() {
+            const randomIndex = Math.floor(Math.random() * colors.length);
+            const color = colors[randomIndex];
+            document.getElementById('changer').style.color = color;
+          }
+          setInterval(function() {
+              changeColor();
+          }, 1000);
