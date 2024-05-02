@@ -69,4 +69,17 @@ if(document.getElementById('chaos')) {
           }
           setInterval(function() {
               changeColor();
-          }, 1000);
+          }, 10);
+
+          function updateClock(){
+            const time = new Date();
+            let hours = time.getHours();
+            hours = hours % 12 || 12;
+            hours = hours.toString().padStart(2,0);
+            document.getElementById('clock').textContent = `
+            ${hours}:${time.getMinutes().toString().padStart(2, 0)}:${time.getSeconds().toString().padStart(2, 0)} 
+            ${hours <= 12 ? `pm` : `am`}`;
+            }
+        
+        updateClock();
+        setInterval(updateClock, 1000);
