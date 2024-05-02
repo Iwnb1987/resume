@@ -113,11 +113,11 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: black;
 }
 
 #neon {
-  background: fuchsia;
+  background: rgb(91, 91, 236);
   color: black;
 }
 
@@ -186,6 +186,11 @@ a.social:hover {
     display: block;
     margin-right: auto;
     color: aqua;
+  }
+   #clock{
+    font-family: monospace;
+    color:#0399ff;
+    font-size: 19px;
   }
 
   main {
