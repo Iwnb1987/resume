@@ -191,6 +191,10 @@ a.social:hover {
     font-family: monospace;
     color:#0399ff;
     font-size: 19px;
+     border: solid blue 5px;
+  }
+  #clock:hover{
+    cursor:none;
   }
 
   main {
