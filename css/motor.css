@@ -1,0 +1,54 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:lighter;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slide img{
+    width: 100%;
+    display: none;
+}
+img.displaySlide{
+display: block;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+.off-road{
+    width: 40%;
+    height: 400px;
+    position: relative;
+}
+.roadHog{
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+.HD{
+    width: 50%;
+    height: 400px;
+    position: relative;
+}
+.slide button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    background-color: rgb(68, 66, 66);
+    color: ghostwhite;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+.back{
+left: 28%;
+}
+.next{
+    right: 28%;
+}
+
+@keyframes fade {
+    from{opacity: .5}
+    to {opacity: 1}
+}
