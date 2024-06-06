@@ -1,1 +1,1 @@
-My professional resume. It contains what I learned from AlgoAcademy, I also studied at Treehouse Inc.
+A concoction of most of the JavaScript, HTML, and CSS syntax I've learned since my coding journey began.
